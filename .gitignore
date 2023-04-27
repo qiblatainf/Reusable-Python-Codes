@@ -170,4 +170,12 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-*.joblib
+#ADD YOUR CODE HERE
+
+#add the extension of the files or the entire file names here
+
+#here all the files with the joblib extension will be ignored
+#*.joblib 
+
+#here only the files with xyz.joblib extension will be ignored
+#xyz.joblib
