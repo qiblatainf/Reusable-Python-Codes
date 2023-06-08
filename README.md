@@ -13,3 +13,7 @@ Step 2) `ipynb-py-convert D:\FYP\MedicalNER(Notebook).ipynb D:\FYP\MedicalNER.py
 ### Generating Requirements.txt
 Step 1) `pip install pipreqs`
 Step 2) `pipreqs --force`
+
+OR
+Step 1) pip freeze > requirements.txt
+
