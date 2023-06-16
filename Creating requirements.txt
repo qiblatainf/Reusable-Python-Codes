@@ -1,0 +1,8 @@
+### Generating Requirements.txt
+Step 1) `pip install pipreqs`
+Step 2) `pipreqs --force`
+if errors occur: 'pipreqs --force --encoding=utf8'
+
+OR
+Poor Approach
+Step 1) pip freeze > requirements.txt 
