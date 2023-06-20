@@ -10,5 +10,8 @@ Used to ignore files while pushing code (see line 173 onwards).
 Step 1) `pip install ipynb-py-convert`
 Step 2) `ipynb-py-convert D:\FYP\MedicalNER(Notebook).ipynb D:\FYP\MedicalNER.py`
 
+### Tree
+tree /F
+
 
 
