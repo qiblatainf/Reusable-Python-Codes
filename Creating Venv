@@ -9,6 +9,9 @@ Go the directory of where the project exists and follow the following steps:
 5. python app.py
 6. deactivate
 
+Set-ExecutionPolicy Unrestricted -Force in windows powershell (run as administrator) if error occurs
+
+
 Creating virtual environment using conda:
 conda create --name pyBackendEnv
 conda activate pyBackendEnv
