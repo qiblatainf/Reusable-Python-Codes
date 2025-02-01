@@ -1,3 +1,6 @@
+#login
+docker login -u <username>
+
 docker build -t testing_app .
 docker run -d -p 5000:5000 testing_app
 
