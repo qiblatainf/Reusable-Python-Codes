@@ -1,8 +1,8 @@
 #login
 docker login -u <username>
 
-docker build -t testing_app .
-docker run -d -p 5000:5000 testing_app
+docker build -t testing_app . OR docker build -t flask-app .
+docker run -d -p 5000:5000 testing_app/
 
 deleting:
 docker rmi --force f25e6bb9ccbd
