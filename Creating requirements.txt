@@ -6,3 +6,7 @@ if errors occur: 'pipreqs --force --encoding=utf8'
 OR
 Poor Approach
 Step 1) pip freeze > requirements.txt 
+
+Get Direct Only Dependencies for the build:
+pip install pip-chill
+pip-chill > requirements.txt
